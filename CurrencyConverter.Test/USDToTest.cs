@@ -9,25 +9,25 @@ namespace CurrencyConverter.Test
         [TestMethod]
         public void USDToEURComputesCorrectly()
         {
-            //var sut = new USD(47.82);
-            //Assert.AreEqual(sut.amount, 47.82);
-            //Assert.AreEqual(sut.ToEUR(), 44.9663, 0.01);
+            var sut = new USD(74.76, "€");
+            Assert.AreEqual(sut.amount, 74.76);
+            Assert.AreEqual(sut.ToEUR(), 70.2980, 0.01);
         }
 
         [TestMethod]
         public void USDToJPYComputesCorrectly()
         {
-            //var sut = new USD(73.31);
-            //Assert.AreEqual(sut.amount, 73.31);
-            //Assert.AreEqual(sut.ToJPY(), 8381.70, .5);
+            var sut = new USD(20.32, "¥");
+            Assert.AreEqual(sut.amount, 20.32);
+            Assert.AreEqual(sut.ToJPY(), 2328.16, .5);
         }
 
         [TestMethod]
-        public void USDtoBTCComputesCorrectly()
+        public void USDToBTCComputesCorrectly()
         {
-            //var sut = new USD(90.97);
-            //Assert.AreEqual(sut.amount, 90.97);
-            //Assert.AreEqual(sut.ToBTC(), 0.112905, 0.1);
+            var sut = new USD(62.66, "Ƀ");
+            Assert.AreEqual(sut.amount, 62.66);
+            Assert.AreEqual(sut.ToBTC(), 0.071776, 0.1);
         }
     }
 }

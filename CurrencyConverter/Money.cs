@@ -11,7 +11,7 @@ namespace CurrencyConverter
         // Initialize Variables
         public double amount;
         public string symbol;
-        public Dictionary<string, double> rate = new Dictionary<string, double>();
+        //Dictionary<string, double> rate = new Dictionary<string, double>();
         public string dollarSign = "$"; // key symbol, value rate
         public string euroSign   = "€";
         public string jpySign    = "¥";

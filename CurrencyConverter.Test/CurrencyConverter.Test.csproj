@@ -52,7 +52,9 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="BTCToTest.cs" />
     <Compile Include="EURToTest.cs" />
+    <Compile Include="JPYToTest.cs" />
     <Compile Include="USDToTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

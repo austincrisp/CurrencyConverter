@@ -38,6 +38,7 @@ namespace CurrencyConverter
             Console.WriteLine(euroCurr);
             */
 
+            /*
             var usdMoney = new JPY(20.32, "$");
             var yen = usdMoney.ToJPY();
             Console.WriteLine(yen);
@@ -49,6 +50,21 @@ namespace CurrencyConverter
             var btcMoney = new JPY(71.78, "Ƀ");
             var jaYen = btcMoney.ToJPY();
             Console.WriteLine(jaYen);
+            */
+
+            /*
+            var usdMoney = new BTC(62.66, "$");
+            var bit = usdMoney.ToBTC();
+            Console.WriteLine(bit);
+
+            var eurMoney = new BTC(17.92, "€");
+            var bitCoin = eurMoney.ToBTC();
+            Console.WriteLine(bitCoin);
+
+            var jpyMoney = new BTC(31.66, "¥");
+            var coinBit = jpyMoney.ToBTC();
+            Console.WriteLine(coinBit);
+            */
         }
     }
 }

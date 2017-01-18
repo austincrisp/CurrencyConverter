@@ -8,9 +8,9 @@ namespace CurrencyConverter
 {
     public class USD : Money
     {
-        protected double eurToUSDRate = 1.06360;
-        protected double jpyToUSDRate = 0.00873787;
-        protected double btcToUSDRate = 872.11;
+        public double eurToUSDRate = 1.06319;
+        public double jpyToUSDRate = 0.00873787;
+        public double btcToUSDRate = 872.11;
 
         public USD(double _amount, string _symbol) : base(_amount, _symbol)
         {
