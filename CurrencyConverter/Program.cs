@@ -23,7 +23,7 @@ namespace CurrencyConverter
             var usCurrency = btcMoney.ToUSD();
             Console.WriteLine(usCurrency);
             */
-
+            
             /*
             var usdMoney = new EUR(74.76, "$");
             var euros = usdMoney.ToEUR();
@@ -37,7 +37,7 @@ namespace CurrencyConverter
             var euroCurr = btcMoney.ToEUR();
             Console.WriteLine(euroCurr);
             */
-
+            
             /*
             var usdMoney = new JPY(20.32, "$");
             var yen = usdMoney.ToJPY();
@@ -46,12 +46,12 @@ namespace CurrencyConverter
             var eurMoney = new JPY(60.33, "€");
             var jYen = eurMoney.ToJPY();
             Console.WriteLine(jYen);
-
+            
             var btcMoney = new JPY(71.78, "Ƀ");
             var jaYen = btcMoney.ToJPY();
             Console.WriteLine(jaYen);
             */
-
+           
             /*
             var usdMoney = new BTC(62.66, "$");
             var bit = usdMoney.ToBTC();

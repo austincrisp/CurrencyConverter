@@ -8,8 +8,8 @@ namespace CurrencyConverter
 {
     public class BTC : Money
     {
-        private double usdToBTCRate = 0.001145;
-        private double eurToBTCRate = 0.001216;
+        private double usdToBTCRate = 0.001133;
+        private double eurToBTCRate = 0.001204;
         private double jpyToBTCRate = 0.00001;
 
         public BTC(double _amount, string _symbol) : base(_amount, _symbol)

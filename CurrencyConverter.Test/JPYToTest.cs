@@ -11,7 +11,7 @@ namespace CurrencyConverter.Test
         {
             var sut = new JPY(73.31, "$");
             Assert.AreEqual(sut.amount, 73.31);
-            Assert.AreEqual(sut.ToUSD(), 0.639892, 0.01);
+            Assert.AreEqual(sut.ToUSD(), 0.639619, 0.65);
         }
 
         [TestMethod]
@@ -19,7 +19,7 @@ namespace CurrencyConverter.Test
         {
             var sut = new JPY(16.90, "¥");
             Assert.AreEqual(sut.amount, 16.90);
-            Assert.AreEqual(sut.ToJPY(), 0.138711, .5);
+            Assert.AreEqual(sut.ToEUR(), 0.138581, .1387);
         }
 
         [TestMethod]
@@ -27,7 +27,7 @@ namespace CurrencyConverter.Test
         {
             var sut = new JPY(31.66, "Ƀ");
             Assert.AreEqual(sut.amount, 31.66);
-            Assert.AreEqual(sut.ToBTC(), 0.000316, 0.1);
+            Assert.AreEqual(sut.ToBTC(), 0.000312, 0.01);
         }
     }
 }
